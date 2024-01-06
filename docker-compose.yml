@@ -10,11 +10,8 @@ services:
       DB_PASSWORD: postgres
       DB_USER: postgres
       DB_NAME: postgres
-<<<<<<< HEAD
     networks:
-      - myevershoppe
-=======
->>>>>>> 5c647dbcc6018263c4873223ce9dd43fb39c0f26
+      - myeveryshop
     depends_on:
       - database
     ports:
